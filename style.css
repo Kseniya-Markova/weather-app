@@ -1,0 +1,81 @@
+#myVideo {
+    position: fixed;
+    min-height: 100%;
+    min-width:100%;
+    top: 0;
+    right: 0;
+   z-index: -10;
+}
+    
+#container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    }
+
+#header {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    }
+
+#input {
+    background-color: white;
+    border:none;
+    border-radius: 20px;
+    padding: 15px;
+    font-size: 20px;
+    }
+
+
+#when-where {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#city {
+    color: white;
+    font-size: 45px;
+}
+
+#date {
+    color: white;
+    font-size: 24px;
+}
+
+#now {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+}
+
+#temperature {
+    color: white;
+    font-size: 110px; 
+    font-weight: bold;
+    text-shadow:5px 10px black;
+    margin: 0px;
+}
+
+#feelsLike {
+    color: white;
+    font-size: 30px; 
+    font-weight: bold;
+}
+
+#conditions {
+    color: white;
+    font-size: 32px; 
+    font-weight: bold;
+    font-style: italic;
+}
+
+#variation {
+    color: white;
+    font-size: 26px; 
+    font-weight: bold;
+}
